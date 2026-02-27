@@ -49,28 +49,28 @@ file:
 ## 4. 项目演示图🌌
 1, 登录页
 
-![登录页](https://gitee.com/WQL-KXJ/SunFavorite/raw/master/ProjectCaseImages/%E7%99%BB%E5%BD%95.png#pic_center "登录页")
+![登录页](https://raw.githubusercontent.com/KXJ-WQL/SunFavorite/refs/heads/master/ProjectCaseImages/%E7%99%BB%E5%BD%95.png#pic_center "登录页")
 
 2, 公众号获取验证码
 
-![公众号获取验证码](https://gitee.com/WQL-KXJ/SunFavorite/raw/master/ProjectCaseImages/SunFavorite6.png#pic_center "公众号获取验证码")
+![公众号获取验证码](https://raw.githubusercontent.com/KXJ-WQL/SunFavorite/refs/heads/master/ProjectCaseImages/SunFavorite6.png#pic_center "公众号获取验证码")
 
 3, 个人收藏
 
-![个人收藏](https://gitee.com/WQL-KXJ/SunFavorite/raw/master/ProjectCaseImages/SunFavorite3.png#pic_center "个人收藏")
+![个人收藏](https://raw.githubusercontent.com/KXJ-WQL/SunFavorite/refs/heads/master/ProjectCaseImages/SunFavorite3.png#pic_center "个人收藏")
 
 4, 公共收藏(点击他人名称可以进入他的收藏空间，但只显示公开的收藏目录)
 
-![公共收藏](https://gitee.com/WQL-KXJ/SunFavorite/raw/master/ProjectCaseImages/SunFavorite5.png#pic_center "公共收藏")
+![公共收藏](https://raw.githubusercontent.com/KXJ-WQL/SunFavorite/refs/heads/master/ProjectCaseImages/SunFavorite5.png#pic_center "公共收藏")
 
 5, 新建收藏
 
-![新建收藏](https://gitee.com/WQL-KXJ/SunFavorite/raw/master/ProjectCaseImages/SunFavorite4.png#pic_center "新建收藏")
+![新建收藏](https://raw.githubusercontent.com/KXJ-WQL/SunFavorite/refs/heads/master/ProjectCaseImages/SunFavorite4.png#pic_center "新建收藏")
 
 6, 收藏搜索(收藏名称和收藏备注都可以)
 
-![收藏搜索](https://gitee.com/WQL-KXJ/SunFavorite/raw/master/ProjectCaseImages/SunFavorite8.png#pic_center "收藏搜索")
+![收藏搜索](https://raw.githubusercontent.com/KXJ-WQL/SunFavorite/refs/heads/master/ProjectCaseImages/SunFavorite8.png#pic_center "收藏搜索")
 
 7, 个人中心
 
-![个人中心](https://gitee.com/WQL-KXJ/SunFavorite/raw/master/ProjectCaseImages/SunFavorite7.png#pic_center "个人中心")
+![个人中心](https://raw.githubusercontent.com/KXJ-WQL/SunFavorite/refs/heads/master/ProjectCaseImages/SunFavorite7.png#pic_center "个人中心")
