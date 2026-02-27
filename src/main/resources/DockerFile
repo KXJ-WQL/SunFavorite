@@ -1,0 +1,8 @@
+FROM java:8
+EXPOSE 8888
+VOLUME /tmp
+ADD ./WebPageCollect-0.0.1-SNAPSHOT.jar /WebPageCollect.jar
+CMD ["mkdir","/home/file"]
+RUN bash -c 'touch /WebPageCollect.jar'
+ENTRYPOINT ["java","-jar","/WebPageCollect.jar"]
+

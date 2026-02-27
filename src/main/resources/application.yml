@@ -1,0 +1,78 @@
+server:
+  port: 8888 #端口号
+  domain: http://u58e5j.natappfree.cc
+
+spring:
+  #应用名称
+  application:
+    name: WebPageCollectProject
+
+  #MySQL数据源的配置
+  datasource:
+    username: root
+    password: admin
+    url: jdbc:mysql://192.168.68.134:3306/webpagecollect?useUnicode=true&characterEncoding=utf8
+    driver-class-name: com.mysql.jdbc.Driver
+
+    #druid连接池的配置
+    druid:
+      max-active: 1500 #最大使用连接数量
+      max-wait: 50000 #最大等待时间
+      min-idle: 0 #最小空闲时间
+  #Redis的配置
+  redis:
+    port: 6379
+    host: 192.168.68.134
+    database: 0
+    jedis:
+      pool:
+        max-idle: 8 #空闲连接最大数量
+        max-active: 8 #最大连接数
+        max-wait: 5ms #当出现堵塞异常的最长时间
+
+  #springdate jpa配置
+  jpa:
+    show-sql: true #是否在日志中记录SQL
+    generate-ddl: true #如果数据库没有表是否按pojo自动生成
+    database: mysql #操作的数据库类型
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL55Dialect
+
+  #freemarker模板引擎配置
+  freemarker:
+    suffix: .ftl #后缀 默认是ftlh
+    settings:
+      classic_compatible: true #解决空值问题
+  #Elasticsearch Template
+  elasticsearch:
+    uris: 192.168.68.134:9200
+    username:
+    password:
+    repositories:
+      enabled: true
+  #文件上传配置
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      enabled: true
+      max-request-size: 10MB
+
+#微信配置
+wx:
+  mp:
+    app-id: wx6a30f2fade8f3161
+    secret: dd1a2bd39408b6afdc630bf5aa9cdac9
+    token: kxjwang123
+
+#自定义ES配置
+ES:
+  host: 192.168.68.134
+  port: 9200
+
+#静态主要映射
+file:
+  staticAccessPath: /api/file/**
+  uploadFolder: F:\KXJPageCollect\static\teamImages\
