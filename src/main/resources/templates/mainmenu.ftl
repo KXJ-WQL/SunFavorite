@@ -1,4 +1,4 @@
-<#import "/inclusion/out.ftl" as Out/>
+<#import "./inclusion/out.ftl" as Out/>
 <@Out.out "空想家Smile">
 
     <div id="app" class="row justify-content-md-center">
@@ -30,7 +30,7 @@
 
         <!---->
         <div class="col col-9" id="collects-col">
-            <#include '/inclusion/collect-tpl.ftl'>
+            <#include './inclusion/collect-tpl.ftl'>
 
             <div class="row" id="masonry"></div>
 

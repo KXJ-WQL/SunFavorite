@@ -1,4 +1,4 @@
-<#import "/inclusion/out.ftl" as Layout>
+<#import "./inclusion/out.ftl" as Layout>
 
 <@Layout.out "个人管理">
 

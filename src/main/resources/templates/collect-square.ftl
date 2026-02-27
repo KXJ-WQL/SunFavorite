@@ -1,4 +1,4 @@
-<#import "/inclusion/out.ftl" as Layout>
+<#import "./inclusion/out.ftl" as Layout>
 
 <@Layout.out "我的收藏">
 
@@ -9,7 +9,7 @@
         <!---->
         <div class="col" id="collects-col">
 
-            <#include '/inclusion/collect-tpl.ftl'>
+            <#include './inclusion/collect-tpl.ftl'>
             <div class="row" id="masonry"></div>
 
         </div>

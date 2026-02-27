@@ -24,8 +24,7 @@
 </head>
 <body>
 <div class="container" style="max-width: 960px;">
-
-    <#include "/inclusion/header.ftl"/>
+    <#include "header.ftl"/>
     <#nested >
 
 </div>
