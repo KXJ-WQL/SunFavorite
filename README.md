@@ -49,7 +49,7 @@ file:
 ## 4. 项目演示图🌌
 1, 登录页
 
-![登录页](https://wql.luoqin.ltd/wp-content/uploads/2022/11/%E7%99%BB%E5%BD%95.png "登录页")
+![登录页](https://gitee.com/WQL-KXJ/SunFavorite/raw/master/ProjectCaseImages/%E7%99%BB%E5%BD%95.png#pic_center "登录页")
 
 2, 公众号获取验证码
 
